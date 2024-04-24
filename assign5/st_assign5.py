@@ -4,7 +4,7 @@ import snowflake.connector
 import openai
 import os
 import pinecone
-
+from openai import OpenAI
 from pinecone import Pinecone
 from pinecone import PodSpec
 from dotenv import load_dotenv
