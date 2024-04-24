@@ -14,7 +14,7 @@ load_dotenv()
 
 
 # Initialize OpenAI and Pinecone
-openai_api_key = "sk-proj-GezjytfDnbIrl8rkvIuYT3BlbkFJsZBYJCvKKCoFBu8Lh7Kw"
+openai_api_key = os.getenv('openai_api_key')
 client = openai.OpenAI(api_key=openai_api_key)
 
 papi_key=os.getenv('papi_key')
