@@ -8,3 +8,4 @@ snowflake-connector-python
 openai
 toml
 pinecone-client
+python-dotenv
