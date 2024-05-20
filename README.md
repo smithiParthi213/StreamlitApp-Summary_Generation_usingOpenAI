@@ -1,3 +1,3 @@
 # bigdata_assignment5
 
---> Summary generation using OpenAI models
+--> Streamlit app - Summary generation using OpenAI models
